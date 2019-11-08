@@ -1,0 +1,88 @@
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist
+* b2b301b 2019-11-07 | new first user commit (HEAD -> master, origin/master, origin/branch2, origin/HEAD, branch_2) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist
+* b2b301b 2019-11-07 | new first user commit (HEAD -> branch_2, origin/master, origin/branch2, origin/HEAD, master) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist
+* 561df6c 2019-11-08 | start task 3 (HEAD -> branch_2) [oleh]
+* b2b301b 2019-11-07 | new first user commit (origin/master, origin/branch2, origin/HEAD, master) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ ^C
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist
+* b2b301b 2019-11-07 | new first user commit (HEAD -> branch_2, origin/master, origin/branch2, origin/HEAD, master) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist
+* f6cf563 2019-11-08 | commit will be reset (HEAD -> branch_2, origin/branch_2) [oleh]
+* 4874fb7 2019-11-08 | commit to be amend [oleh]
+* b2b301b 2019-11-07 | new first user commit (origin/master, origin/branch2, origin/HEAD, master) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist
+* f6cf563 2019-11-08 | commit will be reset (HEAD -> branch_2, origin/branch_2) [oleh]
+* 4874fb7 2019-11-08 | commit to be amend [oleh]
+* b2b301b 2019-11-07 | new first user commit (origin/master, origin/branch2, origin/HEAD, master) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ ^C
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist
+* b2b301b 2019-11-07 | new first user commit (HEAD -> branch_2, origin/master, origin/branch2, origin/HEAD, master) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist
+* e04f2bf 2019-11-08 | commit united after reset (HEAD -> branch_2, origin/branch_2) [oleh]
+* b2b301b 2019-11-07 | new first user commit (origin/master, origin/branch2, origin/HEAD, master) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist
+* d369547 2019-11-08 | commit before cherrypick from branch_2 (HEAD -> master) [oleh]
+* b2b301b 2019-11-07 | new first user commit (origin/master, origin/branch2, origin/HEAD) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist -all
+fatal: unrecognized argument: -all
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist --all
+* d369547 2019-11-08 | commit before cherrypick from branch_2 (HEAD -> master) [oleh]
+| * e04f2bf 2019-11-08 | commit united after reset (origin/branch_2, branch_2) [oleh]
+|/  
+* b2b301b 2019-11-07 | new first user commit (origin/master, origin/branch2, origin/HEAD) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+| * 2005eb2 2019-11-07 | second user activity (origin/branchSecondUser) [oleh]
+|/  
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist --all
+* 822851b 2019-11-08 | commit united after reset (HEAD -> master) [oleh]
+* d369547 2019-11-08 | commit before cherrypick from branch_2 [oleh]
+| * e04f2bf 2019-11-08 | commit united after reset (origin/branch_2, branch_2) [oleh]
+|/  
+* b2b301b 2019-11-07 | new first user commit (origin/master, origin/branch2, origin/HEAD) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+| * 2005eb2 2019-11-07 | second user activity (origin/branchSecondUser) [oleh]
+|/  
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]

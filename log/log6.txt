@@ -1,0 +1,140 @@
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is up-to-date with 'origin/branch2'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   fff.txt
+	modified:   sss.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	s3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is up-to-date with 'origin/branch2'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   fff.txt
+	modified:   sss.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	s3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is up-to-date with 'origin/branch2'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   fff.txt
+	new file:   s3.txt
+	modified:   sss.txt
+
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is ahead of 'origin/branch2' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is ahead of 'origin/branch2' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	addonemorefile.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is ahead of 'origin/branch2' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   addonemorefile.txt
+
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is ahead of 'origin/branch2' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is ahead of 'origin/branch2' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	addmorecommit.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is ahead of 'origin/branch2' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is up-to-date with 'origin/branch2'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   fff.txt
+	modified:   sss.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	addmorecommit.txt
+	addonemorefile.txt
+	s3.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is up-to-date with 'origin/branch2'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   addmorecommit.txt
+	new file:   addonemorefile.txt
+	modified:   fff.txt
+	new file:   s3.txt
+	modified:   sss.txt
+
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is ahead of 'origin/branch2' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	cherrypick.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean

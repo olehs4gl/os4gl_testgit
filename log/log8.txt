@@ -1,0 +1,249 @@
+oleh@robotop:~$ cd gl/u1/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+b2b301b HEAD@{0}: checkout: moving from master to master
+b2b301b HEAD@{1}: merge branch_2: Fast-forward
+66b9068 HEAD@{2}: checkout: moving from branch_2 to master
+b2b301b HEAD@{3}: commit: new first user commit
+fb9a0df HEAD@{4}: checkout: moving from master to branch_2
+66b9068 HEAD@{5}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{6}: commit: start second homework
+66b9068 HEAD@{7}: checkout: moving from master to branch_2
+66b9068 HEAD@{8}: commit: add next 2 files
+658a990 HEAD@{9}: commit: add 3 files
+f8f657b HEAD@{10}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+b2b301b HEAD@{0}: checkout: moving from master to branch_2
+b2b301b HEAD@{1}: checkout: moving from master to master
+b2b301b HEAD@{2}: merge branch_2: Fast-forward
+66b9068 HEAD@{3}: checkout: moving from branch_2 to master
+b2b301b HEAD@{4}: commit: new first user commit
+fb9a0df HEAD@{5}: checkout: moving from master to branch_2
+66b9068 HEAD@{6}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{7}: commit: start second homework
+66b9068 HEAD@{8}: checkout: moving from master to branch_2
+66b9068 HEAD@{9}: commit: add next 2 files
+658a990 HEAD@{10}: commit: add 3 files
+f8f657b HEAD@{11}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+561df6c HEAD@{0}: commit: start task 3
+b2b301b HEAD@{1}: checkout: moving from master to branch_2
+b2b301b HEAD@{2}: checkout: moving from master to master
+b2b301b HEAD@{3}: merge branch_2: Fast-forward
+66b9068 HEAD@{4}: checkout: moving from branch_2 to master
+b2b301b HEAD@{5}: commit: new first user commit
+fb9a0df HEAD@{6}: checkout: moving from master to branch_2
+66b9068 HEAD@{7}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{8}: commit: start second homework
+66b9068 HEAD@{9}: checkout: moving from master to branch_2
+66b9068 HEAD@{10}: commit: add next 2 files
+658a990 HEAD@{11}: commit: add 3 files
+f8f657b HEAD@{12}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+b2b301b HEAD@{0}: reset: moving to b2b301b
+561df6c HEAD@{1}: commit: start task 3
+b2b301b HEAD@{2}: checkout: moving from master to branch_2
+b2b301b HEAD@{3}: checkout: moving from master to master
+b2b301b HEAD@{4}: merge branch_2: Fast-forward
+66b9068 HEAD@{5}: checkout: moving from branch_2 to master
+b2b301b HEAD@{6}: commit: new first user commit
+fb9a0df HEAD@{7}: checkout: moving from master to branch_2
+66b9068 HEAD@{8}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{9}: commit: start second homework
+66b9068 HEAD@{10}: checkout: moving from master to branch_2
+66b9068 HEAD@{11}: commit: add next 2 files
+658a990 HEAD@{12}: commit: add 3 files
+f8f657b HEAD@{13}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+f63f2d7 HEAD@{0}: commit: commit to be amend
+b2b301b HEAD@{1}: reset: moving to b2b301b
+561df6c HEAD@{2}: commit: start task 3
+b2b301b HEAD@{3}: checkout: moving from master to branch_2
+b2b301b HEAD@{4}: checkout: moving from master to master
+b2b301b HEAD@{5}: merge branch_2: Fast-forward
+66b9068 HEAD@{6}: checkout: moving from branch_2 to master
+b2b301b HEAD@{7}: commit: new first user commit
+fb9a0df HEAD@{8}: checkout: moving from master to branch_2
+66b9068 HEAD@{9}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{10}: commit: start second homework
+66b9068 HEAD@{11}: checkout: moving from master to branch_2
+66b9068 HEAD@{12}: commit: add next 2 files
+658a990 HEAD@{13}: commit: add 3 files
+f8f657b HEAD@{14}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+4874fb7 HEAD@{0}: commit (amend): commit to be amend
+f63f2d7 HEAD@{1}: commit: commit to be amend
+b2b301b HEAD@{2}: reset: moving to b2b301b
+561df6c HEAD@{3}: commit: start task 3
+b2b301b HEAD@{4}: checkout: moving from master to branch_2
+b2b301b HEAD@{5}: checkout: moving from master to master
+b2b301b HEAD@{6}: merge branch_2: Fast-forward
+66b9068 HEAD@{7}: checkout: moving from branch_2 to master
+b2b301b HEAD@{8}: commit: new first user commit
+fb9a0df HEAD@{9}: checkout: moving from master to branch_2
+66b9068 HEAD@{10}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{11}: commit: start second homework
+66b9068 HEAD@{12}: checkout: moving from master to branch_2
+66b9068 HEAD@{13}: commit: add next 2 files
+658a990 HEAD@{14}: commit: add 3 files
+f8f657b HEAD@{15}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+f6cf563 HEAD@{0}: commit: commit will be reset
+4874fb7 HEAD@{1}: commit (amend): commit to be amend
+f63f2d7 HEAD@{2}: commit: commit to be amend
+b2b301b HEAD@{3}: reset: moving to b2b301b
+561df6c HEAD@{4}: commit: start task 3
+b2b301b HEAD@{5}: checkout: moving from master to branch_2
+b2b301b HEAD@{6}: checkout: moving from master to master
+b2b301b HEAD@{7}: merge branch_2: Fast-forward
+66b9068 HEAD@{8}: checkout: moving from branch_2 to master
+b2b301b HEAD@{9}: commit: new first user commit
+fb9a0df HEAD@{10}: checkout: moving from master to branch_2
+66b9068 HEAD@{11}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{12}: commit: start second homework
+66b9068 HEAD@{13}: checkout: moving from master to branch_2
+66b9068 HEAD@{14}: commit: add next 2 files
+658a990 HEAD@{15}: commit: add 3 files
+f8f657b HEAD@{16}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+f6cf563 HEAD@{0}: commit: commit will be reset
+4874fb7 HEAD@{1}: commit (amend): commit to be amend
+f63f2d7 HEAD@{2}: commit: commit to be amend
+b2b301b HEAD@{3}: reset: moving to b2b301b
+561df6c HEAD@{4}: commit: start task 3
+b2b301b HEAD@{5}: checkout: moving from master to branch_2
+b2b301b HEAD@{6}: checkout: moving from master to master
+b2b301b HEAD@{7}: merge branch_2: Fast-forward
+66b9068 HEAD@{8}: checkout: moving from branch_2 to master
+b2b301b HEAD@{9}: commit: new first user commit
+fb9a0df HEAD@{10}: checkout: moving from master to branch_2
+66b9068 HEAD@{11}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{12}: commit: start second homework
+66b9068 HEAD@{13}: checkout: moving from master to branch_2
+66b9068 HEAD@{14}: commit: add next 2 files
+658a990 HEAD@{15}: commit: add 3 files
+f8f657b HEAD@{16}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+b2b301b HEAD@{0}: reset: moving to b2b301b
+f6cf563 HEAD@{1}: commit: commit will be reset
+4874fb7 HEAD@{2}: commit (amend): commit to be amend
+f63f2d7 HEAD@{3}: commit: commit to be amend
+b2b301b HEAD@{4}: reset: moving to b2b301b
+561df6c HEAD@{5}: commit: start task 3
+b2b301b HEAD@{6}: checkout: moving from master to branch_2
+b2b301b HEAD@{7}: checkout: moving from master to master
+b2b301b HEAD@{8}: merge branch_2: Fast-forward
+66b9068 HEAD@{9}: checkout: moving from branch_2 to master
+b2b301b HEAD@{10}: commit: new first user commit
+fb9a0df HEAD@{11}: checkout: moving from master to branch_2
+66b9068 HEAD@{12}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{13}: commit: start second homework
+66b9068 HEAD@{14}: checkout: moving from master to branch_2
+66b9068 HEAD@{15}: commit: add next 2 files
+658a990 HEAD@{16}: commit: add 3 files
+f8f657b HEAD@{17}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+e04f2bf HEAD@{0}: commit: commit united after reset
+b2b301b HEAD@{1}: reset: moving to b2b301b
+f6cf563 HEAD@{2}: commit: commit will be reset
+4874fb7 HEAD@{3}: commit (amend): commit to be amend
+f63f2d7 HEAD@{4}: commit: commit to be amend
+b2b301b HEAD@{5}: reset: moving to b2b301b
+561df6c HEAD@{6}: commit: start task 3
+b2b301b HEAD@{7}: checkout: moving from master to branch_2
+b2b301b HEAD@{8}: checkout: moving from master to master
+b2b301b HEAD@{9}: merge branch_2: Fast-forward
+66b9068 HEAD@{10}: checkout: moving from branch_2 to master
+b2b301b HEAD@{11}: commit: new first user commit
+fb9a0df HEAD@{12}: checkout: moving from master to branch_2
+66b9068 HEAD@{13}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{14}: commit: start second homework
+66b9068 HEAD@{15}: checkout: moving from master to branch_2
+66b9068 HEAD@{16}: commit: add next 2 files
+658a990 HEAD@{17}: commit: add 3 files
+f8f657b HEAD@{18}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+e04f2bf HEAD@{0}: commit: commit united after reset
+b2b301b HEAD@{1}: reset: moving to b2b301b
+f6cf563 HEAD@{2}: commit: commit will be reset
+4874fb7 HEAD@{3}: commit (amend): commit to be amend
+f63f2d7 HEAD@{4}: commit: commit to be amend
+b2b301b HEAD@{5}: reset: moving to b2b301b
+561df6c HEAD@{6}: commit: start task 3
+b2b301b HEAD@{7}: checkout: moving from master to branch_2
+b2b301b HEAD@{8}: checkout: moving from master to master
+b2b301b HEAD@{9}: merge branch_2: Fast-forward
+66b9068 HEAD@{10}: checkout: moving from branch_2 to master
+b2b301b HEAD@{11}: commit: new first user commit
+fb9a0df HEAD@{12}: checkout: moving from master to branch_2
+66b9068 HEAD@{13}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{14}: commit: start second homework
+66b9068 HEAD@{15}: checkout: moving from master to branch_2
+66b9068 HEAD@{16}: commit: add next 2 files
+658a990 HEAD@{17}: commit: add 3 files
+f8f657b HEAD@{18}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+b2b301b HEAD@{0}: checkout: moving from branch_2 to master
+e04f2bf HEAD@{1}: commit: commit united after reset
+b2b301b HEAD@{2}: reset: moving to b2b301b
+f6cf563 HEAD@{3}: commit: commit will be reset
+4874fb7 HEAD@{4}: commit (amend): commit to be amend
+f63f2d7 HEAD@{5}: commit: commit to be amend
+b2b301b HEAD@{6}: reset: moving to b2b301b
+561df6c HEAD@{7}: commit: start task 3
+b2b301b HEAD@{8}: checkout: moving from master to branch_2
+b2b301b HEAD@{9}: checkout: moving from master to master
+b2b301b HEAD@{10}: merge branch_2: Fast-forward
+66b9068 HEAD@{11}: checkout: moving from branch_2 to master
+b2b301b HEAD@{12}: commit: new first user commit
+fb9a0df HEAD@{13}: checkout: moving from master to branch_2
+66b9068 HEAD@{14}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{15}: commit: start second homework
+66b9068 HEAD@{16}: checkout: moving from master to branch_2
+66b9068 HEAD@{17}: commit: add next 2 files
+658a990 HEAD@{18}: commit: add 3 files
+f8f657b HEAD@{19}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+d369547 HEAD@{0}: commit: commit before cherrypick from branch_2
+b2b301b HEAD@{1}: checkout: moving from branch_2 to master
+e04f2bf HEAD@{2}: commit: commit united after reset
+b2b301b HEAD@{3}: reset: moving to b2b301b
+f6cf563 HEAD@{4}: commit: commit will be reset
+4874fb7 HEAD@{5}: commit (amend): commit to be amend
+f63f2d7 HEAD@{6}: commit: commit to be amend
+b2b301b HEAD@{7}: reset: moving to b2b301b
+561df6c HEAD@{8}: commit: start task 3
+b2b301b HEAD@{9}: checkout: moving from master to branch_2
+b2b301b HEAD@{10}: checkout: moving from master to master
+b2b301b HEAD@{11}: merge branch_2: Fast-forward
+66b9068 HEAD@{12}: checkout: moving from branch_2 to master
+b2b301b HEAD@{13}: commit: new first user commit
+fb9a0df HEAD@{14}: checkout: moving from master to branch_2
+66b9068 HEAD@{15}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{16}: commit: start second homework
+66b9068 HEAD@{17}: checkout: moving from master to branch_2
+66b9068 HEAD@{18}: commit: add next 2 files
+658a990 HEAD@{19}: commit: add 3 files
+f8f657b HEAD@{20}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+822851b HEAD@{0}: cherry-pick: commit united after reset
+d369547 HEAD@{1}: commit: commit before cherrypick from branch_2
+b2b301b HEAD@{2}: checkout: moving from branch_2 to master
+e04f2bf HEAD@{3}: commit: commit united after reset
+b2b301b HEAD@{4}: reset: moving to b2b301b
+f6cf563 HEAD@{5}: commit: commit will be reset
+4874fb7 HEAD@{6}: commit (amend): commit to be amend
+f63f2d7 HEAD@{7}: commit: commit to be amend
+b2b301b HEAD@{8}: reset: moving to b2b301b
+561df6c HEAD@{9}: commit: start task 3
+b2b301b HEAD@{10}: checkout: moving from master to branch_2
+b2b301b HEAD@{11}: checkout: moving from master to master
+b2b301b HEAD@{12}: merge branch_2: Fast-forward
+66b9068 HEAD@{13}: checkout: moving from branch_2 to master
+b2b301b HEAD@{14}: commit: new first user commit
+fb9a0df HEAD@{15}: checkout: moving from master to branch_2
+66b9068 HEAD@{16}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{17}: commit: start second homework
+66b9068 HEAD@{18}: checkout: moving from master to branch_2
+66b9068 HEAD@{19}: commit: add next 2 files
+658a990 HEAD@{20}: commit: add 3 files
+f8f657b HEAD@{21}: clone: from https://github.com/olehs4gl/os4gl_testgit

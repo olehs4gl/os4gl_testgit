@@ -1,0 +1,7 @@
+oleh@robotop:~/gl/u1/os4gl_testgit$ git add sss.txt
+oleh@robotop:~/gl/u1/os4gl_testgit$ git add .
+oleh@robotop:~/gl/u1/os4gl_testgit$ git add .
+oleh@robotop:~/gl/u1/os4gl_testgit$ git add .
+oleh@robotop:~/gl/u1/os4gl_testgit$ git add .
+oleh@robotop:~/gl/u1/os4gl_testgit$ git add .
+oleh@robotop:~/gl/u1/os4gl_testgit$ git add .

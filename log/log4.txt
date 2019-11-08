@@ -1,0 +1,24 @@
+oleh@robotop:~/gl/u1/os4gl_testgit$ git stash
+Saved working directory and index state WIP on master: b2b301b new first user commit
+HEAD is now at b2b301b new first user commit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git stash pop
+On branch branch_2
+Your branch is ahead of 'origin/branch2' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   fff.txt
+	modified:   sss.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (53a64bfe5059be6f50183224757b714e86d9e74c)
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reset b2b301b
+Unstaged changes after reset:
+M	fff.txt
+M	sss.txt
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reset b2b301b
+Unstaged changes after reset:
+M	fff.txt
+M	sss.txt

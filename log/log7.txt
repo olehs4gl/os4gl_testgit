@@ -1,0 +1,5 @@
+oleh@robotop:~$ cd gl/u2/os4gl_testgit
+oleh@robotop:~/gl/u2/os4gl_testgit$ git reflog
+2005eb2 HEAD@{0}: commit: second user activity
+66b9068 HEAD@{1}: checkout: moving from master to branchSecondUser
+66b9068 HEAD@{2}: clone: from https://github.com/olehs4gl/os4gl_testgit
