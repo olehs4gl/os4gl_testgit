@@ -1,0 +1,300 @@
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	log/
+
+nothing added to commit but untracked files present (use "git add" to track)
+oleh@robotop:~/gl/u1/os4gl_testgit$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+	add
+oleh@robotop:~/gl/u1/os4gl_testgit$ git add .
+oleh@robotop:~/gl/u1/os4gl_testgit$ git commit -m"add log files of my previos work"
+[master 725de3e] add log files of my previos work
+ 8 files changed, 612 insertions(+)
+ create mode 100644 log/log1.txt
+ create mode 100644 log/log2.txt
+ create mode 100644 log/log3.txt
+ create mode 100644 log/log4.txt
+ create mode 100644 log/log5.txt
+ create mode 100644 log/log6.txt
+ create mode 100644 log/log7.txt
+ create mode 100644 log/log8.txt
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist --all
+* 725de3e 2019-11-08 | add log files of my previos work (HEAD -> master, origin/master, origin/HEAD) [oleh]
+* 822851b 2019-11-08 | commit united after reset [oleh]
+* d369547 2019-11-08 | commit before cherrypick from branch_2 [oleh]
+| * e04f2bf 2019-11-08 | commit united after reset (origin/branch_2, branch_2) [oleh]
+|/  
+* b2b301b 2019-11-07 | new first user commit (origin/branch2) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+| * 2005eb2 2019-11-07 | second user activity (origin/branchSecondUser) [oleh]
+|/  
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git checkout branch_2
+Switched to branch 'branch_2'
+Your branch is ahead of 'origin/branch2' by 1 commit.
+  (use "git push" to publish your local commits)
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist --all
+* 725de3e 2019-11-08 | add log files of my previos work (origin/master, origin/HEAD, master) [oleh]
+* 822851b 2019-11-08 | commit united after reset [oleh]
+* d369547 2019-11-08 | commit before cherrypick from branch_2 [oleh]
+| * e04f2bf 2019-11-08 | commit united after reset (HEAD -> branch_2, origin/branch_2) [oleh]
+|/  
+* b2b301b 2019-11-07 | new first user commit (origin/branch2) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+| * 2005eb2 2019-11-07 | second user activity (origin/branchSecondUser) [oleh]
+|/  
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+e04f2bf HEAD@{0}: checkout: moving from master to branch_2
+725de3e HEAD@{1}: commit: add log files of my previos work
+822851b HEAD@{2}: cherry-pick: commit united after reset
+d369547 HEAD@{3}: commit: commit before cherrypick from branch_2
+b2b301b HEAD@{4}: checkout: moving from branch_2 to master
+e04f2bf HEAD@{5}: commit: commit united after reset
+b2b301b HEAD@{6}: reset: moving to b2b301b
+f6cf563 HEAD@{7}: commit: commit will be reset
+4874fb7 HEAD@{8}: commit (amend): commit to be amend
+f63f2d7 HEAD@{9}: commit: commit to be amend
+b2b301b HEAD@{10}: reset: moving to b2b301b
+561df6c HEAD@{11}: commit: start task 3
+b2b301b HEAD@{12}: checkout: moving from master to branch_2
+b2b301b HEAD@{13}: checkout: moving from master to master
+b2b301b HEAD@{14}: merge branch_2: Fast-forward
+66b9068 HEAD@{15}: checkout: moving from branch_2 to master
+b2b301b HEAD@{16}: commit: new first user commit
+fb9a0df HEAD@{17}: checkout: moving from master to branch_2
+66b9068 HEAD@{18}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{19}: commit: start second homework
+66b9068 HEAD@{20}: checkout: moving from master to branch_2
+66b9068 HEAD@{21}: commit: add next 2 files
+658a990 HEAD@{22}: commit: add 3 files
+f8f657b HEAD@{23}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is ahead of 'origin/branch2' by 1 commit.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	task3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+oleh@robotop:~/gl/u1/os4gl_testgit$ git add .
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is ahead of 'origin/branch2' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   task3.txt
+
+oleh@robotop:~/gl/u1/os4gl_testgit$ git commit -m"add task3 description"
+[branch_2 af70823] add task3 description
+ 1 file changed, 9 insertions(+)
+ create mode 100644 task3.txt
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist --all
+* af70823 2019-11-08 | add task3 description (HEAD -> branch_2) [oleh]
+* e04f2bf 2019-11-08 | commit united after reset (origin/branch_2) [oleh]
+| * 725de3e 2019-11-08 | add log files of my previos work (origin/master, origin/HEAD, master) [oleh]
+| * 822851b 2019-11-08 | commit united after reset [oleh]
+| * d369547 2019-11-08 | commit before cherrypick from branch_2 [oleh]
+|/  
+* b2b301b 2019-11-07 | new first user commit (origin/branch2) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+| * 2005eb2 2019-11-07 | second user activity (origin/branchSecondUser) [oleh]
+|/  
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git status
+On branch branch_2
+Your branch is ahead of 'origin/branch2' by 2 commits.
+  (use "git push" to publish your local commits)
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	task2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+oleh@robotop:~/gl/u1/os4gl_testgit$ git add .
+oleh@robotop:~/gl/u1/os4gl_testgit$ git commit -m"add task2 description"
+[branch_2 f84e966] add task2 description
+ 1 file changed, 7 insertions(+)
+ create mode 100644 task2.txt
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist --all
+* f84e966 2019-11-08 | add task2 description (HEAD -> branch_2) [oleh]
+* af70823 2019-11-08 | add task3 description [oleh]
+* e04f2bf 2019-11-08 | commit united after reset (origin/branch_2) [oleh]
+| * 725de3e 2019-11-08 | add log files of my previos work (origin/master, origin/HEAD, master) [oleh]
+| * 822851b 2019-11-08 | commit united after reset [oleh]
+| * d369547 2019-11-08 | commit before cherrypick from branch_2 [oleh]
+|/  
+* b2b301b 2019-11-07 | new first user commit (origin/branch2) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+| * 2005eb2 2019-11-07 | second user activity (origin/branchSecondUser) [oleh]
+|/  
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist --all
+* f84e966 2019-11-08 | add task2 description (HEAD -> branch_2) [oleh]
+* af70823 2019-11-08 | add task3 description [oleh]
+* e04f2bf 2019-11-08 | commit united after reset (origin/branch_2) [oleh]
+| * 725de3e 2019-11-08 | add log files of my previos work (origin/master, origin/HEAD, master) [oleh]
+| * 822851b 2019-11-08 | commit united after reset [oleh]
+| * d369547 2019-11-08 | commit before cherrypick from branch_2 [oleh]
+|/  
+* b2b301b 2019-11-07 | new first user commit (origin/branch2) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+| * 2005eb2 2019-11-07 | second user activity (origin/branchSecondUser) [oleh]
+|/  
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+f84e966 HEAD@{0}: commit: add task2 description
+af70823 HEAD@{1}: commit: add task3 description
+e04f2bf HEAD@{2}: checkout: moving from master to branch_2
+725de3e HEAD@{3}: commit: add log files of my previos work
+822851b HEAD@{4}: cherry-pick: commit united after reset
+d369547 HEAD@{5}: commit: commit before cherrypick from branch_2
+b2b301b HEAD@{6}: checkout: moving from branch_2 to master
+e04f2bf HEAD@{7}: commit: commit united after reset
+b2b301b HEAD@{8}: reset: moving to b2b301b
+f6cf563 HEAD@{9}: commit: commit will be reset
+4874fb7 HEAD@{10}: commit (amend): commit to be amend
+f63f2d7 HEAD@{11}: commit: commit to be amend
+b2b301b HEAD@{12}: reset: moving to b2b301b
+561df6c HEAD@{13}: commit: start task 3
+b2b301b HEAD@{14}: checkout: moving from master to branch_2
+b2b301b HEAD@{15}: checkout: moving from master to master
+b2b301b HEAD@{16}: merge branch_2: Fast-forward
+66b9068 HEAD@{17}: checkout: moving from branch_2 to master
+b2b301b HEAD@{18}: commit: new first user commit
+fb9a0df HEAD@{19}: checkout: moving from master to branch_2
+66b9068 HEAD@{20}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{21}: commit: start second homework
+66b9068 HEAD@{22}: checkout: moving from master to branch_2
+66b9068 HEAD@{23}: commit: add next 2 files
+658a990 HEAD@{24}: commit: add 3 files
+f8f657b HEAD@{25}: clone: from https://github.com/olehs4gl/os4gl_testgit
+oleh@robotop:~/gl/u1/os4gl_testgit$ git rebase master
+First, rewinding head to replay your work on top of it...
+Applying: add task3 description
+Applying: add task2 description
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist --all
+* 353d5d3 2019-11-08 | add task2 description (HEAD -> branch_2) [oleh]
+* 99462b1 2019-11-08 | add task3 description [oleh]
+* 725de3e 2019-11-08 | add log files of my previos work (origin/master, origin/HEAD, master) [oleh]
+* 822851b 2019-11-08 | commit united after reset [oleh]
+* d369547 2019-11-08 | commit before cherrypick from branch_2 [oleh]
+| * e04f2bf 2019-11-08 | commit united after reset (origin/branch_2) [oleh]
+|/  
+* b2b301b 2019-11-07 | new first user commit (origin/branch2) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+| * 2005eb2 2019-11-07 | second user activity (origin/branchSecondUser) [oleh]
+|/  
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git checkout master
+Switched to branch 'master'
+Your branch is up-to-date with 'origin/master'.
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist --all
+* 353d5d3 2019-11-08 | add task2 description (branch_2) [oleh]
+* 99462b1 2019-11-08 | add task3 description [oleh]
+* 725de3e 2019-11-08 | add log files of my previos work (HEAD -> master, origin/master, origin/HEAD) [oleh]
+* 822851b 2019-11-08 | commit united after reset [oleh]
+* d369547 2019-11-08 | commit before cherrypick from branch_2 [oleh]
+| * e04f2bf 2019-11-08 | commit united after reset (origin/branch_2) [oleh]
+|/  
+* b2b301b 2019-11-07 | new first user commit (origin/branch2) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+| * 2005eb2 2019-11-07 | second user activity (origin/branchSecondUser) [oleh]
+|/  
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist
+* 725de3e 2019-11-08 | add log files of my previos work (HEAD -> master, origin/master, origin/HEAD) [oleh]
+* 822851b 2019-11-08 | commit united after reset [oleh]
+* d369547 2019-11-08 | commit before cherrypick from branch_2 [oleh]
+* b2b301b 2019-11-07 | new first user commit (origin/branch2) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git rebase branch_2
+First, rewinding head to replay your work on top of it...
+Fast-forwarded master to branch_2.
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist
+* 353d5d3 2019-11-08 | add task2 description (HEAD -> master, branch_2) [oleh]
+* 99462b1 2019-11-08 | add task3 description [oleh]
+* 725de3e 2019-11-08 | add log files of my previos work (origin/master, origin/HEAD) [oleh]
+* 822851b 2019-11-08 | commit united after reset [oleh]
+* d369547 2019-11-08 | commit before cherrypick from branch_2 [oleh]
+* b2b301b 2019-11-07 | new first user commit (origin/branch2) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git hist --all
+* 353d5d3 2019-11-08 | add task2 description (HEAD -> master, branch_2) [oleh]
+* 99462b1 2019-11-08 | add task3 description [oleh]
+* 725de3e 2019-11-08 | add log files of my previos work (origin/master, origin/HEAD) [oleh]
+* 822851b 2019-11-08 | commit united after reset [oleh]
+* d369547 2019-11-08 | commit before cherrypick from branch_2 [oleh]
+| * e04f2bf 2019-11-08 | commit united after reset (origin/branch_2) [oleh]
+|/  
+* b2b301b 2019-11-07 | new first user commit (origin/branch2) [oleh]
+* fb9a0df 2019-11-07 | start second homework [oleh]
+| * 2005eb2 2019-11-07 | second user activity (origin/branchSecondUser) [oleh]
+|/  
+* 66b9068 2019-11-07 | add next 2 files [oleh]
+* 658a990 2019-11-07 | add 3 files [oleh]
+* f8f657b 2019-11-07 | first commit [olehs4gl]
+oleh@robotop:~/gl/u1/os4gl_testgit$ git reflog
+353d5d3 HEAD@{0}: rebase finished: returning to refs/heads/master
+353d5d3 HEAD@{1}: rebase: checkout branch_2
+725de3e HEAD@{2}: checkout: moving from branch_2 to master
+353d5d3 HEAD@{3}: rebase finished: returning to refs/heads/branch_2
+353d5d3 HEAD@{4}: rebase: add task2 description
+99462b1 HEAD@{5}: rebase: add task3 description
+725de3e HEAD@{6}: rebase: checkout master
+f84e966 HEAD@{7}: commit: add task2 description
+af70823 HEAD@{8}: commit: add task3 description
+e04f2bf HEAD@{9}: checkout: moving from master to branch_2
+725de3e HEAD@{10}: commit: add log files of my previos work
+822851b HEAD@{11}: cherry-pick: commit united after reset
+d369547 HEAD@{12}: commit: commit before cherrypick from branch_2
+b2b301b HEAD@{13}: checkout: moving from branch_2 to master
+e04f2bf HEAD@{14}: commit: commit united after reset
+b2b301b HEAD@{15}: reset: moving to b2b301b
+f6cf563 HEAD@{16}: commit: commit will be reset
+4874fb7 HEAD@{17}: commit (amend): commit to be amend
+f63f2d7 HEAD@{18}: commit: commit to be amend
+b2b301b HEAD@{19}: reset: moving to b2b301b
+561df6c HEAD@{20}: commit: start task 3
+b2b301b HEAD@{21}: checkout: moving from master to branch_2
+b2b301b HEAD@{22}: checkout: moving from master to master
+b2b301b HEAD@{23}: merge branch_2: Fast-forward
+66b9068 HEAD@{24}: checkout: moving from branch_2 to master
+b2b301b HEAD@{25}: commit: new first user commit
+fb9a0df HEAD@{26}: checkout: moving from master to branch_2
+66b9068 HEAD@{27}: checkout: moving from branch_2 to master
+fb9a0df HEAD@{28}: commit: start second homework
+66b9068 HEAD@{29}: checkout: moving from master to branch_2
+66b9068 HEAD@{30}: commit: add next 2 files
+658a990 HEAD@{31}: commit: add 3 files
+f8f657b HEAD@{32}: clone: from https://github.com/olehs4gl/os4gl_testgit
