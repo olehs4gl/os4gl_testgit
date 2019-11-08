@@ -1,0 +1,9 @@
+1. Amend commits.
+2. Use 'git reset' with soft/mixed/hard options
+3. Make two commits, push, reset them into one commit, try to push without force, do pull(intentionally messing up the repo), now fix the current situation and make that commit overwrite the remote
+4. Take a look at the reflog, investigate the actions that you've done when you were doing 1-3.
+5. Cherry-pick specific commit from another branch, cherry-pick whole another branch(HEAD..branch), investigate the history, merge with it
+6. Rebase one branch onto the other
+7. Use pull --rebase
+8. Use yours, or download a public repo, investigate it with git blame.
+9. Fix conflicts on cherry-pick, rebase
