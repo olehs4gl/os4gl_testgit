@@ -1,0 +1,7 @@
+1. Push branches using syntax suggested by git, as well as 'git push -u origin locaname:remotename', try out 'git branch -a', 'git branch -vv'
+2. Do a copy of your repository(simulating another user), push some commits, branches. Verify that the other user gets all the info by using 'git fetch'
+3. Create a situation for 'git fetch --prune' to work
+4. Try merging one branch into the other
+5. Stash changes, change branch back and forth, pop stashed changes
+6. Repeat #5 with untracked files on the tree
+7. Fix conflicts on merge, stash pop
